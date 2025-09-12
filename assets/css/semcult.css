@@ -1,0 +1,34 @@
+:root {
+  --brand-primary: #0C2D63;   /* Azul Prefeitura */
+  --brand-secondary: #1A7E42; /* Verde destaque */
+  --brand-accent: #E9E2D0;    /* Bege claro */
+  --brand-dark: #333333;      /* Cinza escuro texto */
+  --brand-light: #F8F9FA;     /* Branco/cinza claro */
+}
+
+body {
+  font-family: 'Inter', 'Montserrat', sans-serif;
+  background: var(--brand-light);
+  color: var(--brand-dark);
+}
+
+header, .navbar {
+  background: var(--brand-primary);
+  color: #fff;
+}
+
+footer {
+  background: var(--brand-accent);
+  color: var(--brand-dark);
+}
+
+a, .btn-primary {
+  color: #fff;
+  background-color: var(--brand-secondary);
+  border-color: var(--brand-secondary);
+}
+
+a:hover, .btn-primary:hover {
+  background-color: #136534;
+  border-color: #136534;
+}
